@@ -2,9 +2,10 @@
   "name": "economet-web",
   "version": "1.0.0",
   "description": "Landing page",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/anymus0/economet-web/issues"
   },
-  "homepage": "https://github.com/anymus0/economet-web#readme"
+  "homepage": "https://github.com/anymus0/economet-web#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
 }
