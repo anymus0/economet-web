@@ -1,0 +1,35 @@
+@import './variables';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.primaryBg {
+  background-color: $primary-color;
+}
+
+.secondaryBg {
+  background-color: $secondary-color;
+}
+
+.primaryFont {
+  color: $primary-color;
+}
+
+.primaryFont {
+  color: $secondary-color;
+}
+
+
+.nav-link {
+  font-size: 1.8rem;
+}
+
+.nav-link:hover {
+  background-color: $secondary-color;
+  color: whitesmoke !important;
+}
+
+.active {
+  color: whitesmoke !important;
+}
