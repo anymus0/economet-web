@@ -1,7 +1,22 @@
-@import './variables';
+// imports
+@import "./variables";
+@import url('/node_modules/bootstrap-icons/font/bootstrap-icons.css');
 
+html,
 body {
+  margin: auto;
+  min-height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: whitesmoke;
 }
 
 .primaryBg {
@@ -16,10 +31,9 @@ body {
   color: $primary-color;
 }
 
-.primaryFont {
+.secondaryFont {
   color: $secondary-color;
 }
-
 
 .nav-link {
   font-size: 1.8rem;
@@ -32,4 +46,50 @@ body {
 
 .active {
   color: whitesmoke !important;
+}
+
+.sectionDivider {
+  text-align: center;
+  padding: 2rem;
+}
+
+section.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section {
+  width: 100%;
+  min-height: 50rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.linkBox {
+  background-color: rgba($secondary-color, 0.7);
+  padding: 4rem;
+  transition: transform 0.3s ease-in-out 0s;
+}
+
+.linkBox:hover {
+  transform: scale(90%);
+  transition: transform 0.3s ease-in-out 0s;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.border-highlight {
+  border: 0.3rem solid;
+  border-radius: 10px;
+}
+
+#footer {
+  background-color: rgb(10, 34, 83);
+  text-align: center;
+  padding: 2rem;
 }

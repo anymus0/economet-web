@@ -1,0 +1,2 @@
+// import lightbox
+require('fslightbox');

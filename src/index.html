@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="./scss/index.scss" />
     <title>Üdvözöljük! | Economet Autószerviz</title>
   </head>
   <body>
@@ -49,7 +49,304 @@
         </div>
       </nav>
     </header>
+    <main>
+      <section>
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img
+                src="./assets/img/slider1.webp"
+                class="d-block w-100 img-fluid"
+                alt="slider1"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="./assets/img/slider2.webp"
+                class="d-block w-100 img-fluid"
+                alt="slider2"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="./assets/img/slider3.webp"
+                class="d-block w-100 img-fluid"
+                alt="slider3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <div class="sectionDivider secondaryBg">
+        <h2>Szolgáltatásaink</h2>
+      </div>
+      <section
+        id="homeSection1"
+        class="section parallax d-flex align-items-center"
+      >
+        <div class="container-fluid h-100">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <a href="./services.html" class="text-decoration-none"
+                ><p class="h1 linkBox">Diagnosztika</p></a
+              >
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <a href="./services.html" class="text-decoration-none"
+                ><p class="h1 linkBox">Javítás</p></a
+              >
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <a href="./services.html" class="text-decoration-none">
+                <p class="h1 linkBox">Vizsgáztatás</p></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="sectionDivider secondaryBg">
+        <h2>Pár képben munkáinkról</h2>
+      </div>
+      <section class="bg-dark p-5">
+        <!-- Gallery -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery1.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
 
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery2.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery3.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery9.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery9.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery5.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery5.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery6.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery6.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery7.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery7.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery8.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery8.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery4.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery4.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery10.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery10.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery11.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery11.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery12.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery12.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery13.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery13.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a
+                data-fslightbox="gallery"
+                href="./assets/img/gallery/gallery14.webp"
+              >
+                <img
+                  src="./assets/img/gallery/gallery14.webp"
+                  class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery -->
+      </section>
+      <section class="secondaryBg p-5 text-center">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h2>Kapcsolatfelvétel</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 pt-5">
+              <i class="bi bi-envelope-fill display-1 text-info"></i>
+              <p class="h1">E-mail:</p>
+              <a href="mailto:szerviz@mainszerviz.com" class="link-info"
+                ><p class="h3 link">szerviz@mainszerviz.com</p></a
+              >
+            </div>
+            <div class="col-lg-6 col-sm-12 pt-5">
+              <i class="bi bi-phone-fill display-1 text-info"></i>
+              <p class="h1">Telefon:</p>
+              <div class="border-highlight border-danger">
+                <p class="h3">+36 1 260 0211</p>
+                <p class="h3">+36 70 77 90 956</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <p class="display-6">Címünk</p>
+        <p class="h4">
+          1172 Budapest,<br />
+          Rétifarkas utca 8.
+        </p>
+        <p class="h4">Minden hétköznap nyitva 8:00 - 16:00-ig</p>
+        <p class="pt-2">© Economet 2021</p>
+        <div class="container-fluid">
+          <div class="row pt-3">
+            <div class="col d-flex justify-content-center">
+              <a
+                href="https://www.facebook.com/Economet-Aut%C3%B3szerviz-138351019591839" target="_alt"
+                ><i class="bi bi-facebook display-1"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script type="module" src="./js/index.js"></script>
     <script type="module" src="/src/js/bootstrapLoader.js"></script>
   </body>
 </html>
