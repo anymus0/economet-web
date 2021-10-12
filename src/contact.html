@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Rólunk | Economet Autószerviz</title>
+    <link rel="stylesheet" href="./scss/contact.scss" />
+    <script src="./js/map.js"></script>
   </head>
   <body>
     <header>
@@ -48,6 +49,43 @@
         </div>
       </nav>
     </header>
+    <section class="secondaryBg p-5 text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h2>Kapcsolatfelvétel</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 pt-5">
+            <i class="bi bi-envelope-fill display-1 text-info"></i>
+            <p class="h1">E-mail:</p>
+            <a href="mailto:szerviz@mainszerviz.com" class="link-info"
+              ><p class="h3 link">szerviz@mainszerviz.com</p></a
+            >
+          </div>
+          <div class="col-lg-6 col-sm-12 pt-5">
+            <i class="bi bi-phone-fill display-1 text-info"></i>
+            <p class="h1">Telefon:</p>
+            <div class="border-highlight border-danger">
+              <p class="h3">+36 1 260 0211</p>
+              <p class="h3">+36 70 77 90 956</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="primaryBg text-center p-5">
+      <p class="h3">Economet autoszerviz</p>
+      <p>1172. BUDAPEST<br />RÉTIFARKAS UTCA 8.</p>
+      <a
+        href="https://www.google.hu/maps/dir//Budapest,+Economet+Aut%C3%B3szerviz:+Renault+szerviz,+jav%C3%ADt%C3%A1s,+Pr%C3%A9mium+aut%C3%B3szerviz,+gyorsszerviz,+Bosch+injektor,+R%C3%A9tifarkas+u.+8,+1172/@47.493693,19.2289173,17z/data=!4m15!1m6!3m5!1s0x4741c40c746b144d:0x74f7c3a7e0180709!2sEconomet+Aut%C3%B3szerviz:+Renault+szerviz,+jav%C3%ADt%C3%A1s,+Pr%C3%A9mium+aut%C3%B3szerviz,+gyorsszerviz,+Bosch+injektor!8m2!3d47.493693!4d19.231106!4m7!1m0!1m5!1m1!1s0x4741c40c746b144d:0x74f7c3a7e0180709!2m2!1d19.231106!2d47.493693" target="_blank"
+        ><button class="btn btn-danger">Útvonaltervezés</button></a
+      >
+    </section>
+    <section>
+      <div id="map"></div>
+    </section>
 
     <footer id="footer">
       <p class="display-6">Címünk</p>
@@ -70,5 +108,10 @@
       </div>
     </footer>
     <script type="module" src="/src/js/bootstrapLoader.js"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6JhuXXO-Jr7lHeiWLGFX1IDYByz8FQl4&callback=initMap&libraries=&v=weeklyq=economet autoszerviz"
+      async
+    ></script>
   </body>
 </html>
