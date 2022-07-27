@@ -18,14 +18,14 @@
   },
   "homepage": "https://github.com/anymus0/economet-web#readme",
   "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-rc.0",
-    "@parcel/transformer-sass": "^2.0.0-rc.0",
-    "parcel": "^2.0.0-rc.0"
+    "@parcel/transformer-image": "^2.6.2",
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
   },
   "dependencies": {
-    "@popperjs/core": "^2.10.2",
-    "bootstrap": "^5.0.0-beta3",
-    "bootstrap-icons": "^1.5.0",
-    "fslightbox": "^3.3.0-2"
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1",
+    "fslightbox": "^3.3.1"
   }
 }
